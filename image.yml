@@ -10,6 +10,9 @@ upstream:
   version:
     type: github_release
     repo: ZDoom/gzdoom
+    require_assets:
+      - asset: 'amd64\.deb$'
+      - asset: 'arm64\.deb$'
   notes:
     type: github_release
     repo: ZDoom/gzdoom
